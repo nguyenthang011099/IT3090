@@ -11,7 +11,7 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-       $this->call(NhacungcapSeeder::class);
+       $this->call(CungcapSeeder::class);
 
     }
 }
