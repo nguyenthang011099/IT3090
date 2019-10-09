@@ -11,6 +11,6 @@ class CungcapSeeder extends Seeder
      */
     public function run()
     {
-        factory(\App\Cungcap::class,2)->create();
+        factory(\App\Cungcap::class,5000)->create();
     }
 }
